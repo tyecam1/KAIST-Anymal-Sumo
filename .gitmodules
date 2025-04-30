@@ -1,0 +1,6 @@
+[submodule "third_party/raisimLib"]
+	path = third_party/raisimLib
+	url = https://github.com/jhwangbo/raisimLib.git
+[submodule "third_party/raisimGymTutorial"]
+	path = third_party/raisimGymTutorial
+	url = https://github.com/jhwangbo/raisimGymTutorial.git
