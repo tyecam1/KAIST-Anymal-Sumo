@@ -1,12 +1,16 @@
-# ME491 Anymal Sumo – Learning-Based Control Project
+# Anymal Sumo – ME491 Learning-Based Control Project
 
 This project was developed during the **ME491: Learning-Based Control** course at **KAIST** in 2023. It implements a reinforcement learning-based quadrupedal robot trained in simulation to compete in a sumo wrestling environment.
 
 The robot uses the **Proximal Policy Optimization (PPO)** algorithm in a **RaiSim** simulation environment, with a curriculum-shaped reward function encouraging mechanical stability and aggressive engagement.
 
+Main student code found at KAIST-Anymal-Sumo\ME491_project\ME491_2023_project\env\envs\rsg_anymal
+(for_test files are used to pit one trained algorithm against another)
+
 ## Repository Structure
 
-ME491-Anymal-Sumo/ ├── me491_project/ # Main code (algo, env, data, helper)
+ME491-Anymal-Sumo/
+├── me491_project/ # Main code (algo, env, data, helper)
 ├── rsc/ # URDF and DAE robot model files
 ├── third_party/ # External dependencies (RaiSim, RaisimGym)
 ├── report/ # Final report
