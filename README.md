@@ -33,6 +33,8 @@ cmake .. && make -j4
 cd me491_project
 python algo/ppo/runner.py --cfg data/<your_experiment_folder>/cfg.yaml
 
+'''
+
 ## Key Features
 Custom Training Environment based on RaiSim
 
